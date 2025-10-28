@@ -85,9 +85,9 @@ const Navigation = () => {
             <Link href="/services" className="text-white text-base font-normal leading-6">
               Services
             </Link>
-            <Link href="/industries" className="text-white text-base font-normal leading-6">
+            {/*<Link href="/industries" className="text-white text-base font-normal leading-6">
               Industries
-            </Link>
+            </Link>*/}
             <Link href="/about" className="text-white text-base font-normal leading-6">
               About Us
             </Link>
@@ -110,9 +110,9 @@ const Navigation = () => {
             <Link href="/services" className="text-white text-base font-normal leading-6 py-2">
               Services
             </Link>
-            <Link href="/industries" className="text-white text-base font-normal leading-6 py-2">
+            {/*<Link href="/industries" className="text-white text-base font-normal leading-6">
               Industries
-            </Link>
+            </Link>*/}
             <Link href="/about" className="text-white text-base font-normal leading-6 py-2">
               About Us
             </Link>
