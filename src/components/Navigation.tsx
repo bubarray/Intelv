@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
-import Image from "next/Image"
+import Image from "next/image"
 
 const Navigation = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
