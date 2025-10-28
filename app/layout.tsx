@@ -6,8 +6,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import QueryProvider from "@/components/providers/QueryProvider";
 
 export const metadata: Metadata = {
-  title: "Marketplace",
-  description: "A modern marketplace application",
+  title: "Intellivision Gulf LLC",
+  description: "Your one-stop solution for IT demands",
 };
 
 export default function RootLayout({
