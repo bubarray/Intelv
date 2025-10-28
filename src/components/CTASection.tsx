@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const CTASection = () => {
   return (
     <div
-      className="w-full bg-[#6B66D0] px-4 py-10 md:px-16 md:py-14"
+          className="w-full bg-gradient-to-b from-[#0099B5] to-[#6B66D0] px-4 py-10 md:px-16 md:py-14"
       style={{
         marginTop: "-2px",
       }}
@@ -21,7 +21,7 @@ const CTASection = () => {
                     "'Albert Sans', -apple-system, Roboto, Helvetica, sans-serif",
                 }}
               >
-                Discover Quality Spare Parts Today
+                Connect With Us Today
               </div>
             </div>
           </div>

@@ -239,10 +239,10 @@ const Footer = () => {
                     "Hind, -apple-system, Roboto, Helvetica, sans-serif",
                 }}
               >
-                © 2025 Relume. All rights reserved.
+                © 2025 Intellivision Gulf. All rights reserved.
               </p>
               <div className="flex items-start gap-6">
-                {["Privacy Policy", "Terms of Service", "Cookie Settings"].map(
+                {["Privacy Policy", "Terms of Service"].map(
                   (link) => (
                     <a
                       key={link}

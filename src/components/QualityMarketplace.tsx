@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const QualityMarketplace = () => {
   return (
     <div
-      className="w-full bg-[#0A0202]"
+      className="w-full bg-[#0099B5]"
       style={{
         marginBottom: "-4px",
         padding: "79px 64px 0",
@@ -21,39 +21,17 @@ const QualityMarketplace = () => {
               <div className="flex flex-col items-start gap-8 flex-1">
                 {/* Section Title */}
                 <div className="flex flex-col items-start gap-4 w-full">
-                  {/* Tagline */}
-                  <div
-                    className="text-white text-base font-normal"
-                    style={{
-                      fontFamily:
-                        "Hind, -apple-system, Roboto, Helvetica, sans-serif",
-                    }}
-                  >
-                    Quality
-                  </div>
-
                   {/* Content */}
                   <div className="flex flex-col items-start gap-6 w-full">
-                    <h2
-                      className="text-white text-5xl font-normal leading-[48px] tracking-[-0.48px] w-full"
+                    <h3
+                      className="text-[#4a0045] text-5xl font-normal leading-[48px] tracking-[-0.48px] w-full"
                       style={{
                         fontFamily:
                           "'Albert Sans', -apple-system, Roboto, Helvetica, sans-serif",
                       }}
                     >
-                      Discover the Best Spare Parts Marketplace
-                    </h2>
-                    <p
-                      className="text-white text-base font-normal w-full"
-                      style={{
-                        fontFamily:
-                          "Hind, -apple-system, Roboto, Helvetica, sans-serif",
-                      }}
-                    >
-                      Our marketplace connects you with trusted suppliers for
-                      all your spare part needs. Enjoy a seamless shopping
-                      experience with user-friendly features.
-                    </p>
+                      Why choose us?
+                    </h3>
                   </div>
                 </div>
 
@@ -65,13 +43,13 @@ const QualityMarketplace = () => {
                       {/* Feature 1 */}
                       <div className="flex flex-col items-start gap-4 flex-1 mr-8">
                         <h3
-                          className="text-white text-xl font-normal leading-7 tracking-[-0.2px] w-full"
+                          className="bg-[#FDBB2D] bg-clip-text text-transparent text-3xl font-normal leading-7 tracking-[-0.2px] w-full"
                           style={{
                             fontFamily:
                               "'Albert Sans', -apple-system, Roboto, Helvetica, sans-serif",
                           }}
                         >
-                          Wide Selection
+                          Tailored Solutions, Not Templates
                         </h3>
                         <p
                           className="text-white text-base font-normal w-full"
@@ -80,21 +58,20 @@ const QualityMarketplace = () => {
                               "Hind, -apple-system, Roboto, Helvetica, sans-serif",
                           }}
                         >
-                          Access a vast range of spare parts from multiple
-                          reputable vendors in one place.
+                          Every business is unique. We take the time to understand your goals, challenges, and workflow before designing custom IT solutions that fit perfectly.
                         </p>
                       </div>
 
                       {/* Feature 2 */}
                       <div className="flex flex-col items-start gap-4 flex-1">
                         <h3
-                          className="text-white text-xl font-normal leading-7 tracking-[-0.2px] w-full"
+                          className="bg-[#FDBB2D] bg-clip-text text-transparent text-3xl font-normal leading-7 tracking-[-0.2px] w-full"
                           style={{
                             fontFamily:
                               "'Albert Sans', -apple-system, Roboto, Helvetica, sans-serif",
                           }}
                         >
-                          User Authentication
+                          Client-First Approach
                         </h3>
                         <p
                           className="text-white text-base font-normal w-full"
@@ -107,43 +84,53 @@ const QualityMarketplace = () => {
                           account authentication system.
                         </p>
                       </div>
-                    </div>
-                  </div>
-                </div>
+                                      </div>
+                                      <div className="flex flex-row">
+                                          {/* Feature 3 */}
+                                          <div className="flex flex-col items-start gap-4 flex-1 mr-8">
+                                              <h3
+                                                  className="bg-[#FDBB2D] bg-clip-text text-transparent text-3xl font-normal leading-7 tracking-[-0.2px] w-full"
+                                                  style={{
+                                                      fontFamily:
+                                                          "'Albert Sans', -apple-system, Roboto, Helvetica, sans-serif",
+                                                  }}
+                                              >
+                                                  Cutting-Edge Technologies
+                                              </h3>
+                                              <p
+                                                  className="text-white text-base font-normal w-full"
+                                                  style={{
+                                                      fontFamily:
+                                                          "Hind, -apple-system, Roboto, Helvetica, sans-serif",
+                                                  }}
+                                              >
+                                                  From cloud computing and cybersecurity to AI and automation, we leverage the latest technologies to ensure your business stays future-ready.
+                                              </p>
+                                          </div>
 
-                {/* Buttons Row */}
-                <div className="flex flex-row">
-                  <div className="flex flex-col items-center gap-4 w-full">
-                    <Link href="/products">
-                      <Button
-                        variant="outline"
-                        className="text-white border-white/20 bg-transparent hover:bg-white/10 h-9 px-6 rounded-xl"
-                        style={{
-                          fontFamily:
-                            "Hind, -apple-system, Roboto, Helvetica, sans-serif",
-                          fontSize: "14px",
-                          fontWeight: "500",
-                          lineHeight: "20px",
-                        }}
-                      >
-                        Shop
-                      </Button>
-                    </Link>
+                                          {/* Feature 4 */}
+                                          <div className="flex flex-col items-start gap-4 flex-1">
+                                              <h3
+                                                  className="bg-[#FDBB2D] bg-clip-text text-transparent text-3xl font-normal leading-7 tracking-[-0.2px] w-full"
+                                                  style={{
+                                                      fontFamily:
+                                                          "'Albert Sans', -apple-system, Roboto, Helvetica, sans-serif",
+                                                  }}
+                                              >
+                                                  Cost-Effective Excellence
+                                              </h3>
+                                              <p
+                                                  className="text-white text-base font-normal w-full"
+                                                  style={{
+                                                      fontFamily:
+                                                          "Hind, -apple-system, Roboto, Helvetica, sans-serif",
+                                                  }}
+                                              >
+                                                  Get enterprise-level IT services without the enterprise-level price tag. Our lean structure allows us to deliver high-quality solutions that maximize value and minimize cost.
+                                              </p>
+                                          </div>
+                                      </div>
                   </div>
-                  <Button
-                    variant="ghost"
-                    className="text-white hover:bg-white/10 h-9 px-0 rounded-xl flex items-center justify-center"
-                    style={{
-                      fontFamily:
-                        "Hind, -apple-system, Roboto, Helvetica, sans-serif",
-                      fontSize: "14px",
-                      fontWeight: "500",
-                      lineHeight: "20px",
-                    }}
-                  >
-                    <span className="mr-2">Learn More</span>
-                    <ChevronRight className="w-6 h-6" />
-                  </Button>
                 </div>
               </div>
 
@@ -155,8 +142,8 @@ const QualityMarketplace = () => {
           {/* Right Column */}
           <div className="flex flex-col w-6/12 ml-5 max-md:ml-0 max-md:w-full">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/0478aab14d2f5229c77b898d05980b82ef09eff9?width=1232"
-              alt="Marketplace quality illustration"
+              src="https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Business-Setup-Consultant-in-Dubai-_-Cover-21-2-23.jpg"
+              alt=""
               style={{
                 height: "492px",
                 marginLeft: "-5px",

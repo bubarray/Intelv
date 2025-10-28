@@ -40,7 +40,7 @@ const HeroSection = () => {
                     </div>
 
                     <div className="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto">
-                        <Link href="/products">
+                        <Link href="/services">
                             <Button
                                 className="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 font-semibold text-lg transform hover:scale-105"
                                 style={{
@@ -55,6 +55,7 @@ const HeroSection = () => {
                             </Button>
                         </Link>
 
+                        <Link href="/contact-us">
                         <Button
                             variant="outline"
                             className="group relative inline-flex items-center justify-center px-8 py-4 border-2 border-cyan-400 text-cyan-400 rounded-full hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 font-semibold text-lg transform hover:scale-105"
@@ -68,6 +69,7 @@ const HeroSection = () => {
                         >
                             Get in touch
                         </Button>
+                        </Link>
                     </div>
                 </div>
 
@@ -76,7 +78,7 @@ const HeroSection = () => {
                     <img
                         src="https://budventure.technology/public/frontend/images/blog/blog_1_main.webp"
                         alt="Spare parts marketplace featuring various automotive components arranged around a brake disc"
-                        style={{ height: "511px" }}
+                        style={{ height: "480px" }}
                         className="w-full max-w-[640px] object-cover rounded-[40px]"
                     />
                 </div>
