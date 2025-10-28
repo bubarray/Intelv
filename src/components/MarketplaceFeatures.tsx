@@ -21,7 +21,7 @@ const MarketplaceFeatures = () => {
         </div>
         <div className="flex flex-col items-center gap-6 w-full">
           <div
-                      className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent w-full text-white text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-[120%] tracking-[-0.32px] md:tracking-[-0.48px] lg:leading-[120%] md:leading-[130%] sm:leading-[130%]"
+                      className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent w-full text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-[120%] tracking-[-0.32px] md:tracking-[-0.48px] lg:leading-[120%] md:leading-[130%] sm:leading-[130%]"
             style={{
               fontFamily:
                 "'Albert Sans', -apple-system, Roboto, Helvetica, sans-serif",
