@@ -35,7 +35,7 @@ const HeroSection = () => {
                                     "Hind, -apple-system, Roboto, Helvetica, sans-serif",
                             }}
                         >
-                            Professional IT solutions tailored to drive your business forward. From infrastructure to support, we&aposve got you covered.
+                            Professional IT solutions tailored to drive your business forward. From infrastructure to support, we&apos;ve got you covered.
                         </p>
                     </div>
 
