@@ -40,12 +40,12 @@ export function CheckEmail({ email = "your email" }: CheckEmailProps) {
           </div>
           <CardTitle className="text-2xl">Check your email</CardTitle>
           <CardDescription className="text-center">
-            We've sent a verification link to <strong>{email}</strong>
+            We&apos;ve sent a verification link to <strong>{email}</strong>
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4 text-center">
           <p className="text-sm text-muted-foreground">
-            Click the link in the email to verify your account. If you don't see
+            Click the link in the email to verify your account. If you don&apos;t see
             the email, check your spam folder.
           </p>
 
