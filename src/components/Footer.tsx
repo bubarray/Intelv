@@ -123,7 +123,6 @@ const Footer = () => {
                   {[
                     "About Us",
                     "Contact Us",
-                    "Support Center",
                     "Blog Posts",
                     "FAQs",
                   ].map((link) => (
@@ -161,9 +160,6 @@ const Footer = () => {
                   {[
                     "User Guides",
                     "Case Studies",
-                    "Webinars",
-                    "Events",
-                    "Newsroom",
                   ].map((link) => (
                     <div key={link} className="flex py-2 items-start w-full">
                       <a
@@ -196,29 +192,17 @@ const Footer = () => {
                   Stay Connected
                 </h3>
                 <div className="flex flex-col items-start w-full">
-                  {[
-                    { name: "Facebook", icon: Facebook },
-                    { name: "Instagram", icon: Instagram },
-                    { name: "Twitter", icon: Twitter },
-                    { name: "LinkedIn", icon: Linkedin },
-                    { name: "YouTube", icon: Youtube },
-                  ].map(({ name, icon: Icon }) => (
-                    <div
-                      key={name}
-                      className="flex py-2 items-center gap-3 w-full"
-                    >
-                      <Icon className="w-6 h-6 text-white" />
-                      <a
-                        href="#"
-                        className="text-white text-sm font-normal leading-[150%] hover:text-white/80 transition-colors"
-                        style={{
-                          fontFamily:
-                            "Hind, -apple-system, Roboto, Helvetica, sans-serif",
-                        }}
-                      >
-                        {name}
-                      </a>
-                    </div>
+                  <a href="mailto:intellivision@gmail.com">
+                    <span>
+                      Email : intellivision@gmail.com
+                    </span>
+                  </a>
+                  <a href="tel:+971524820454">
+                    <span>
+                      Phone: +971524820454
+                    </span>
+                  </a>
+                </div>
                   ))}
                 </div>
               </div>
